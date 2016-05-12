@@ -9,8 +9,8 @@ body {
 }
 
 header {
-  position: absolute;
-  width: 100%;
+  /*position: absolute;*/
+  width: 1024px;
   height: 117px;
   background-color: black;
   border: 2px solid #FFFFFF;
@@ -40,23 +40,33 @@ nav ul li {
 .content {
   display: flex;
   margin: 0;
-
-
 }
+
 .article1, .article2, .article3, .article4 {
   width: 254px;
-  height: 256px;
+  height: 250px;
   background-color: black;
   border: 1px solid white;
 }
 
-.article1 a {
+.article1 a, .article2 a, .article3 a, .article4 a {
   width: 180px;
-  border: 1px solid red;
   display: block;
   color: white;
-  font-size: 30px;
+  font-size: 24px;
   margin: auto;
-  padding: auto;
   text-align: center;
+  padding-top: 30px;
+  text-decoration: none;
 }
+
+footer {
+  width: 1024px;
+  height: 120px;
+  background-color: black;
+  border: 2px solid #FFFFFF;
+}
+
+footer img {
+  max-height: 90px;
+  margin: 10px;
