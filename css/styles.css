@@ -17,9 +17,19 @@ header {
 }
 
 header img {
+  position: relative;
   margin-top: 10px;
   margin-left: 10px;
   float: left;
+}
+
+.ustralver {
+  position: absolute;
+  left: 120px;
+  top: 45px;
+  color: white;
+  width: 250px;
+  font-size: 30px;
 }
 
 nav ul li {
@@ -27,7 +37,7 @@ nav ul li {
   width: 100px;
   display: block;
   color: white;
-  margin-top: 7px;
+  margin-top: 6px;
   line-height: 20px;
   margin-left: 900px;
 }
