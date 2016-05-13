@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Play:700,400);
+
 * {
 margin: 0;
 padding: 0;
@@ -69,6 +71,7 @@ nav ul li {
   text-align: center;
   padding-top: 30px;
   text-decoration: none;
+  font-family: 'Play:700', sans-serif;
 }
 
 footer {
