@@ -11,7 +11,7 @@ body {
 }
 
 header {
-  /*position: absolute;*/
+  float: left;
   width: 1024px;
   height: 117px;
   background-color: black;
@@ -34,14 +34,25 @@ header img {
   font-size: 30px;
 }
 
-nav ul li {
-  /*border: 1px solid red;*/
+.links1  {
   width: 100px;
-  display: block;
+  float: right;
+}
+
+.links2  {
+  width: 100px;
+  float: right;
+}
+
+a {
   color: white;
-  margin-top: 6px;
-  line-height: 20px;
-  margin-left: 900px;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 2px;
+  margin-top: 2px;
+  font-family: 'Play:700', sans-serif;
+
 }
 
 .main img {
@@ -66,8 +77,9 @@ nav ul li {
   width: 180px;
   display: block;
   color: white;
-  font-size: 24px;
+  font-size: 20px;
   margin: auto;
+  padding: 0px;
   text-align: center;
   padding-top: 30px;
   text-decoration: none;
@@ -84,3 +96,4 @@ footer {
 footer img {
   max-height: 90px;
   margin: 10px;
+}
