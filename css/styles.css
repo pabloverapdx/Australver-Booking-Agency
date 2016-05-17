@@ -35,11 +35,13 @@ header img {
 }
 
 .links1  {
+  margin-top: 10px;
   width: 100px;
   float: right;
 }
 
 .links2  {
+  margin-top: 10px;
   width: 100px;
   float: right;
 }
@@ -50,7 +52,7 @@ a {
   text-align: center;
   text-decoration: none;
   letter-spacing: 2px;
-  margin-top: 2px;
+  margin-top: 3px;
   font-family: 'Play:700', sans-serif;
 
 }
@@ -74,10 +76,10 @@ a {
 }
 
 .article1 a, .article2 a, .article3 a, .article4 a {
-  width: 180px;
+  width: 200px;
   display: block;
   color: white;
-  font-size: 20px;
+  font-size: 24px;
   margin: auto;
   padding: 0px;
   text-align: center;
