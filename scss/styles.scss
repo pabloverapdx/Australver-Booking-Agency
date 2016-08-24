@@ -70,11 +70,6 @@ a {
 
 }
 
-img {
-  margin-top: 0px;
-  padding-top: 0px;
-}
-
 .main img {
   width: 100%;
   margin-bottom: 0px;
@@ -95,6 +90,10 @@ img {
   border: 1px solid white;
   padding: 0px;
   margin: 0px;
+  @media screen and (max-width: 700px) {
+  width: 100%;
+  display: block;
+  }
 }
 
 .article1 a, .article2 a, .article3 a, .article4 a {
