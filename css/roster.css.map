@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA;;QAES;EACL,kBAAkB,EAAE,UAAU;EAC3B,eAAe,EAAE,UAAU;EACtB,UAAU,EAAE,UAAU;;AAGlC,IAAI;EACF,gBAAgB,EAAE,OAAO;;AAG3B,CAAE;EACF,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC",
+"sources": ["../scss/roster.scss"],
+"names": [],
+"file": "roster.css"
+}
