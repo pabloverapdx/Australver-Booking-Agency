@@ -5,14 +5,36 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
-body {
-  background-color: magenta; }
-
 * {
   margin: 0;
   padding: 0; }
 
+nav, footer {
+  width: 100%;
+  height: 90px;
+  background-color: black; }
+
 img {
-  max-width: 250px; }
+  max-width: 80%; }
+
+h4 {
+  border: 5px solid black;
+  margin: 0 auto;
+  margin-top: -4px;
+  padding-top: 7px;
+  width: 80%;
+  height: 45px; }
+
+.wrapper {
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  border: 5px solid magenta; }
+
+.musicians {
+  padding: 40px 0px;
+  display: inline-block;
+  width: 32.9%;
+  text-align: center; }
 
 /*# sourceMappingURL=roster.css.map */
