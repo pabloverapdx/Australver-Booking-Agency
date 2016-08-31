@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,IAAK;EACH,gBAAgB,EAAE,OAAO",
+"sources": ["../scss/releases.scss"],
+"names": [],
+"file": "releases.css"
+}
