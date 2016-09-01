@@ -1,4 +1,7 @@
-body {
-  background-color: magenta; }
+h1 {
+  text-align: center;
+  font-size: 48px;
+  height: 400px;
+  line-height: 400px; }
 
 /*# sourceMappingURL=releases.css.map */
