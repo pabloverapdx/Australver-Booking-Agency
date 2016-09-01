@@ -18,6 +18,16 @@ body {
   padding: 0px;
 }
 
+.your-information {
+  margin-left: 5%;
+  margin-bottom: 5%;
+  margin-top: 3%;
+}
+
+.select-artist {
+    margin-left: 5%;
+}
+
 h3 {
   background-color: black;
   height: 60px;
@@ -38,3 +48,60 @@ nav, footer {
   height: 90px;
   background-color: black;
 }
+
+// -------------- Modal Section ---------------
+.modal-title {
+ max-width: 14%;
+}
+
+.modal-body {
+  p {
+    text-align: center;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 17px;
+  }
+}
+
+.modal-body {
+  h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size : 38px;
+    line-height : 53px;
+  }
+}
+
+ // button //
+ .btn-info {
+   font-weight: 700;
+   font-size : 17px;
+   border-radius: 6px;
+   box-shadow: inset 0 0 0 2px white;
+   background: #F66E58;
+   border: 3px solid #F66E58;
+   color: white;
+   margin-bottom: 3vh;
+ }
+
+
+ // Footer
+ .modal-footer p {
+   text-align: center;
+   font-weight: 700;
+   font-size : 20px;
+ }
+
+.form-control {
+  border: 4px solid black;
+  height: 60px;
+
+}
+
+ // Media Query
+ #myModal .modal-dialog {
+   @media screen and (min-device-width: 320px) and (max-device-width: 768px) {
+     width: 90%;
+     height: auto;
+   }
+ }

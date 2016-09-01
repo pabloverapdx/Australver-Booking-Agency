@@ -2,8 +2,16 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    <script src="js/jquery-2.2.3.min.js" charset="utf-8"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
     <script src="js/scripts.js" charset="utf-8"></script>
     <link rel="stylesheet" href="css/calendar.css" media="screen" title="no title" charset="utf-8">
     <title>Calendar</title>
@@ -11,28 +19,28 @@
   <body>
     <nav>
     </nav>
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-xs-2 col-lg-15">
-          <div class="footer-column-header">
-            <p class="footer-column-title">Artist</p>
+    <div class="container-fluid">
+      <div class="row header-row center-block">
+        <div class="col-xs-2 col-lg-15">
+      <div class="header-column-header">
+        <p class="header-column-title">Artist</p>
       </div>
-        <ul>
+        <ul class="first-column">
           <li>Nicolas Jaar</li>
           <li>John Talabot</li>
-          <li>Marcel Dettmann</li>
+          <li>Dettmann</li>
           <li>Axel Boman</li>
-          <li>Anthony Naples</li>
+          <li>Naples</li>
           <li>Dixon</li>
           <li>Ame</li>
           <li>Nina</li>
         </ul>
       </div>
     <div class="col-xs-2 col-lg-15">
-      <div class="footer-column-header">
-        <p class="footer-column-title">Country</p>
+      <div class="header-column-header">
+        <p class="header-column-title">Country</p>
       </div>
-        <ul>
+        <ul class="other-columns">
           <li>United States</li>
           <li>Chile</li>
           <li>United States</li>
@@ -44,10 +52,10 @@
         </ul>
       </div>
       <div class="col-xs-2 col-lg-15">
-        <div class="footer-column-header">
-          <p class="footer-column-title">City</p>
+        <div class="header-column-header">
+          <p class="header-column-title">City</p>
         </div>
-          <ul>
+          <ul class="other-columns">
             <li>Portland</li>
             <li>Valparaiso</li>
             <li>Portland</li>
@@ -59,10 +67,10 @@
           </ul>
         </div>
         <div class="col-xs-2 col-lg-15">
-          <div class="footer-column-header">
-            <p class="footer-column-title">Date</p>
+          <div class="header-column-header">
+            <p class="header-column-title">Date</p>
           </div>
-            <ul>
+            <ul class="other-columns">
               <li>09/01/2016</li>
               <li>09/01/2016</li>
               <li>09/01/2016</li>
@@ -74,10 +82,10 @@
             </ul>
           </div>
           <div class="col-xs-2 col-lg-15">
-            <div class="footer-column-header">
-              <p class="footer-column-title">Venue</p>
+            <div class="header-column-header">
+              <p class="header-column-title">Venue</p>
             </div>
-              <ul>
+              <ul class="other-columns">
                 <li>Holocene</li>
                 <li>Cerro Alegre</li>
                 <li>Holocene</li>
@@ -89,7 +97,7 @@
               </ul>
             </div>
           </div>
-      </div>
+        </div>
     <footer>
     </footer>
   </body>

@@ -12,6 +12,30 @@
 .col-lg-15 {
   width: 20%;
   border: 1px solid magenta;
-  height: 500px; }
+  height: auto; }
+
+.header-row {
+  height: 70px;
+  width: 100%;
+  border: 5px solid black;
+  text-align: center;
+  line-height: 60px;
+  font-family: 'Play', sans-serif;
+  font-weight: 700;
+  font-size: 30px; }
+
+.first-column {
+  width: 100%;
+  font-family: 'Play', sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  list-style: none; }
+
+.other-columns li {
+  width: 100%;
+  font-family: 'Play', sans-serif;
+  font-weight: normal;
+  font-size: 26px;
+  list-style: none; }
 
 /*# sourceMappingURL=calendar.css.map */
